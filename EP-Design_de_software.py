@@ -78,21 +78,48 @@ if Soma_do_banco==Soma_do_jogador:
 ficha0 = 300
 
 
+# Interacao com o jogador
+
 print ('Jogo de Bacara')
 
 objeto_da_aposta = input('Em quem deseja apostar (banco, jogador ou empate)? ')
+valor_da_aposta = input('qual valor deseja apostar?')
+while 
+    if valor_da_aposta > ficha0:
+        print ('Aposta maior do que as fichas disponiveis')
+       valor_da_aposta = input('qual valor deseja apostar?') 
+
+ 
+# definindo quem venceu
+
 if objeto_da_aposta = banco:
-    while vencedor=banco:
+    while vencedor = banco:
         print(Voce ganhou)
     else print(Voce perdeu)
+
 if objeto_da_aposta = jogador:
-    while vencedor=jogador:
+    while vencedor = jogador:
         print(Voce ganhou)
     else print(Voce perdeu)
+
 if objeto_da_aposta = empate:
     while vencedor = empate:
         print(Voce ganhou)
     else print(Voce perdeu)
+
+# definindo quantas fichas serao ganhas/perdidas (incompleto)
+
+if objeto_da_aposta = jogador and vencedor = jogador:
+    fichas0 = fichas0*2
+
+
+
+
+
+
+
+
+
 
 
 
